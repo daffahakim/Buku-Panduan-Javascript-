@@ -1,4 +1,4 @@
-# Learn Javascript
+# Belajar Javascript
 
 Buku ini akan membantu untuk anda yang ingin belajar bahasa pemograman javascript. Baik anda sudah berpengalaman dengan javascript atau belum, buku ini di khususkan untuk siapapun yang ingin belajar bahasa pemograman Javascript :).
 
