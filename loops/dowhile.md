@@ -1,6 +1,6 @@
 # Perulangan Do...While 
 
-do...while membuat perulangan menjalankan pernyataan tertentu hingga kondisi pengujian bernilai salah (false). kondisi dievaluasi setelah menjalankan pernyataan
+do...while perulangan yang menjalankan pernyataan tertentu hingga kondisi pengujian bernilai salah (false). kondisi dievaluasi setelah menjalankan pernyataan
 
 Sintaks untuk do... while adalah:
 
