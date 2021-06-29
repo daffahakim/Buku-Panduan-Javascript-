@@ -1,8 +1,8 @@
-# Loops
+# Perulangan
 
-Loops are repetitive conditions where one variable in the loop changes. Loops are handy, if you want to run the same code over and over again, each time with a different value.
+Loops (perulangan) adalah kondisi dimana satu variabel dalam suatu perulangan berubah dan akan terus berulang sampai kondisi yang diinginkan tercapai, loop digunakan jika kamu ingin menggunakan kode yang sama secara berulang ulang, setiap kali dengan nilai yang berbeda
 
-Instead of writing:
+contoh menuliskan kode yang sama tanpa menggunakan perulangan :
 
 ```javascript
 doThing(cars[0]);
@@ -12,7 +12,7 @@ doThing(cars[3]);
 doThing(cars[4]);
 ```
 
-You can write:
+dengan perulangan kamu dapat menulisnya lebih sinkgat, contoh :
 
 ```javascript
 for (var i = 0; i < cars.length; i++) {

@@ -1,31 +1,31 @@
-# While Loop
+# Perulangan While
 
-While Loops repetitively execute a block of code as long as a specified condition is true.
+perulangan `while`, perulangan ini akan terus berulang selama kondisi yang ditentukan benar.
 
 ```javascript
-while (condition) {
-  // do it as long as condition is true
+while (kondisi) {
+  //kode akan terus dilakukan selama kondisinya benar
 }
 ```
 
-For example, the loop in this example will repetitively execute its block of code as long as the variable i is less than 5:
+sebagai contoh, kode dibawah ini akan terus berulang selama "i" masih kurang dari 5:
 
 ```javascript
 var i = 0,
   x = "";
 while (i < 5) {
-  x = x + "The number is " + i;
+  x = x + "Nomornya adalah " + i;
   i++;
 }
 ```
 
-**Note**: Be careful to avoid infinite looping if the condition is always true!
+**Catatan**: Berhati hatilah, untuk menghindari pengulangan yang tak terbatas jika kondisi selalu benar!
 
-{% exercise %}
-Using a while-loop, create a variable named `message` that equals the concatenation of integers (0, 1, 2, ...) as long as its length (`message.length`) is less than 100.
-{% initial %}
+{% Latihan %}
+dengan menggunakan perulangan `while`, buatlah variabel bernama `message` yang sama dengan gabungan bilangan bulat (0, 1, 2, ...) asalkan panjangnya (`message.length`) kurang dari 100.
+{% mulai %}
 var message = "";
-{% solution %}
+{% solusi %}
 var message = "";
 var i = 0;
 
@@ -33,7 +33,7 @@ while (message.length < 100) {
 message = message + i;
 i = i + 1;
 }
-{% validation %}
+{% pembuktian %}
 var message2 = "";
 var i2 = 0;
 
