@@ -2,18 +2,19 @@
 
 Dalam sesi pertama ini, kita akan belajar dasar dari pemograman dan JavaScript.
 
-Pemograman artinya menulis kode. A book is made up of chapters, paragraphs, sentences, phrases, words and finally punctuation and letters, likewise a program can be broken down into smaller and smaller components. For now, the most important is a statement. A statement is analogous to a sentence in a book. On its own, it has structure and purpose, but without the context of the other statements around it, it isn't that meaningful.
+Pemograman artinya menulis kode. Sebuah buku terdiri dari BAB, Paragraf , Kalimat, Frasa, Kata dan akhirnya tanda baca dan huruf, demikian juga sebuah program dapat dipecah menjadi komponen yang lebih kecil dan lebih kecil. Untuk saat ini, yang paling penting adalah pernyataan. Sebuah pernyataan dianalogikan dengan sebuah kalimat dalam sebuah buku. Dengan sendirinya, ia memiliki struktur dan tujuan, tetapi tanpa konteks pernyataan lain di sekitarnya, itu tidak begitu berarti.
 
-A statement is more casually (and commonly) known as a _line of code_. That's because statements tend to be written on individual lines. As such, programs are read from top to bottom, left to right. You might be wondering what code (also called source code) is. That happens to be a broad term which can refer to the whole of the program or the smallest part. Therefore, a line of code is simply a line of your program.
+Sebuah pernyataan lebih santai (dan umumnya) dikenal sebagai _baris kode_. Itu karena pernyataan cenderung ditulis pada baris individu. Dengan demikian, program dibaca dari atas ke bawah, kiri ke kanan. Anda mungkin bertanya-tanya apa kode (juga disebut kode sumber). Itu adalah istilah luas yang dapat merujuk pada keseluruhan program atau bagian terkecil. Oleh karena itu, sebaris kode hanyalah sebaris program Anda.
 
-Here is a simple example:
+Berikut adalah contoh sederhananya
+
 
 ```javascript
-var hello = "Hello";
-var world = "World";
+var halo = "Halo";
+var dunia = "Dunia";
 
-// Message equals "Hello World"
-var message = hello + " " + world;
+// Pesan yang di hasilkan "Hello World"
+var pesan = halo + " " + dunia;
 ```
 
-This code can be executed by another program called an _interpreter_ that will read the code, and execute all the statements in the right order.
+Kode diatas akan dieksekusi oleh sebuah program yang disebut dengan _interpreter_ yang mana bisa membaca kode, dan mengeksekusi semua pernyataan didalam kode secara benar.
