@@ -1,15 +1,16 @@
-# Do...While Loop
+# Perulangan Do...While 
 
-The do...while statement creates a loop that executes a specified statement until the test condition evaluates to be false. The condition is evaluated after executing the statement.
-Syntax for do... while is
+do...while membuat perulangan yang menjalankan pernyataan tertentu hingga kondisi pengujian bernilai salah (false). kondisi dievaluasi setelah menjalankan pernyataan
+
+Sintaks untuk do... while adalah:
 
 ```javascript
 do {
-  // statement
-} while (expression);
+  // Pernyataan
+} while (kondisi);
 ```
 
-Lets for example see how to print numbers less than 10 using `do...while` loop:
+sebagai contoh, dibawah ini cara mencetak angka sampai kurang dari 10 dengan perulangan `do...while`:
 
 ```javascript
 var i = 0;
@@ -19,15 +20,15 @@ do {
 } while (i < 10);
 ```
 
-> **_Note_**: `i = i + 1` can be written `i++`.
+> **_Catatan_**: `i = i + 1` dapat ditulis `i++`.
 
-{% exercise %}
-Using a do...while-loop, print numbers between less than 5.
-{% initial %}
+{% Latihan %}
+Menggunakan perulangan `do...while`, cetaklah angka sampai kurang dari 5.
+{% Mulai %}
 var i = 0;
-{% solution %}
+{% Solusi %}
 var i = 0;
 do {
-i++; // incrementing i by 1
+i++; // menambah i dengan 1
 } while (i < 5);
-{% endexercise %}
+{% AkhirLatihan %}
