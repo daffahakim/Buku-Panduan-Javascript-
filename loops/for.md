@@ -1,4 +1,4 @@
-# For Loop
+# Perulangan For
 
 Bentuk perulangan yang paling mudah adalah for. ini memiliki sintaks seperti pernyataan if namun memiliki lebih banyak opsi:
 
