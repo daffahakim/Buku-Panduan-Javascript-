@@ -1,6 +1,6 @@
 # Loops
 
-Loops (perulangan) adalah kondisi berulang dimana satu variabel dalam suatu perulanga berubah, loop digunakan jika kamu ingin menggunakan kode yang sama secara berulang ulang, setiap kali dengan nilai yang berbeda
+Loops (perulangan) adalah kondisi dimana satu variabel dalam suatu perulangan berubah dan akan terus berulang sampai kondisi yang diinginkan tercapai, loop digunakan jika kamu ingin menggunakan kode yang sama secara berulang ulang, setiap kali dengan nilai yang berbeda
 
 contoh menuliskan kode yang sama tanpa menggunakan perulangan :
 
