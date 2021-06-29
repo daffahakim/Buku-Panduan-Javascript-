@@ -16,7 +16,7 @@ sebagai contoh, dibawah ini cara mencetak angka sampai kurang dari 10 dengan per
 var i = 0;
 do {
   document.write(i + " ");
-  i++; // incrementing i by 1
+  i++; // menambah i dengan 1
 } while (i < 10);
 ```
 
