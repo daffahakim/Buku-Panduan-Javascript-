@@ -3,8 +3,8 @@
 Bentuk perulangan yang paling mudah adalah for. ini memiliki sintaks seperti pernyataan if namun memiliki lebih banyak opsi:
 
 ```javascript
-for (condition; end condition; change) {
-    // do it, do it now
+for (kondisi; kondisi akhir; perubahan) {
+    // kode dijalankan sebanyak kondisi yang ditentukan
 }
 ```
 
@@ -12,7 +12,7 @@ dibawah ini merupakan contoh cara menjalankan kode yang sama selama 10 kali deng
 
 ```javascript
 for (var i = 0; i < 10; i = i + 1) {
-  // do this code ten-times
+  // kode dijalankan sebanyak 10 kali
 }
 ```
 
