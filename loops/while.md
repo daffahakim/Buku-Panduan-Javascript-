@@ -1,4 +1,4 @@
-# While Loop
+# Perulangan While
 
 perulangan `while`, perulangan ini akan terus berulang selama kondisi yang ditentukan benar.
 
