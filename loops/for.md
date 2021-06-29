@@ -1,6 +1,6 @@
 # For Loop
 
-The easiest form of a loop is the for statement. This one has a syntax that is similar to an if statement, but with more options:
+Bentuk perulangan yang paling mudah adalah for. ini memiliki sintaks seperti pernyataan if namun memiliki lebih banyak opsi:
 
 ```javascript
 for (condition; end condition; change) {
@@ -8,7 +8,7 @@ for (condition; end condition; change) {
 }
 ```
 
-Lets for example see how to execute the same code ten-times using a `for` loop:
+dibawah ini merupakan contoh cara menjalankan kode yang sama selama 10 kali dengan perulangan `for`:
 
 ```javascript
 for (var i = 0; i < 10; i = i + 1) {
@@ -16,23 +16,25 @@ for (var i = 0; i < 10; i = i + 1) {
 }
 ```
 
-> **_Note_**: `i = i + 1` can be written `i++`.
+> **_Catatan_**: `i = i + 1` dapat ditulis `i++`.
 
-{% exercise %}
-Using a for-loop, create a variable named `message` that equals the concatenation of integers (0, 1, 2, ...) from 0 to 99.
-{% initial %}
+{% latihan %}
+menggunakan perulangan `for`, buatlah variabel  `message` yang sama dengan rangkaian bilangan bulat (0, 1, 2, ...) dari 0 sampai 99.
+
+{% awalan %}
 var message = "";
-{% solution %}
+
+{% solusi %}
 var message = "";
 
 for(var i = 0; i < 100; i++){
 message = message + i;
 }
-{% validation %}
+{% pembuktian %}
 var message2 = ""
 
 for(var i = 0; i < 100; i++){
 message2 = message2 + i;
 }
 assert(message === message2);
-{% endexercise %}
+{% akhir latihan %}
