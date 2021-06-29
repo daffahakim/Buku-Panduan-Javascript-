@@ -1,8 +1,7 @@
 # Learn Javascript
 
-This book will teach you the basics of programming and Javascript. Whether you are an experienced programmer or not, this book is intended for everyone who wishes to learn the JavaScript programming language.
+Buku ini akan membantu untuk anda yang ingin belajar bahasa pemograman javascript. Baik anda sudah berpengalaman dengan javascript atau belum, buku ini di khususkan untuk siapapun yang ingin belajar bahasa pemograman Javascript :).
 
 ![](./assets/intro.png)
 
-JavaScript (_JS for short_) is the programming language that enables web pages to respond to user interaction beyond the basic level. It was created in 1995, and is today one of the most famous and used programming languages.
-# Buku-Panduan-Javascript-
+JavaScript (JS) adalah bahasa pemograman yang merespon dari aksi yang user berikan dihalaman web. Bahasa pemograman ini dibuat pada tahun 1995, dan sekarang menjadi salah satu bahasa pemograman palng populer diseluruh dunia
