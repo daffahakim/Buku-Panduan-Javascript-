@@ -1,47 +1,47 @@
 # Variables
 
-The first step towards really understanding programming is looking back at algebra. If you remember it from school, algebra starts with writing terms such as the following.
+Langkah pertama untuk benar-benar memahami pemrograman adalah melihat kembali rumus rumus aljabar. Jika Anda ingat dari sekolah, aljabar dimulai dengan menulis istilah-istilah seperti berikut ini.
 
 ```
 3 + 5 = 8
 ```
 
-You start performing calculations when you introduce an unknown, for example x below:
+Anda mulai melakukan perhitungan saat Anda memperkenalkan yang tidak diketahui, misalnya simbol x di bawah ini:
 
 ```
 3 + x = 8
 ```
 
-Shifting those around you can determine x:
+Menggeser simbol sehingga anda dapat menentukan nilai x:
 
 ```
 x = 8 - 3
 -> x = 5
 ```
 
-When you introduce more than one you make your terms more flexible - you are using variables:
+Saat Anda memperkenalkan lebih dari satu, Anda membuat istilah Anda lebih fleksibel:
 
 ```
 x + y = 8
 ```
 
-You can change the values of x and y and the formula can still be true:
+Anda dapat mengubah nilai x dan y dan rumusnya tetap dalam keadaan `true`:
 
 ```
 x = 4
 y = 4
 ```
 
-or
+atau
 
 ```
 x = 3
 y = 5
 ```
 
-The same is true for programming languages. In programming, variables are containers for values that change. Variables can hold all kind of values and also the results of computations. Variables have a name and a value separated by an equals sign (=). Variable names can be any letter or word, but bear in mind that there are restrictions from language to language of what you can use, as some words are reserved for other functionality.
+Hal yang sama berlaku untuk bahasa pemrograman. Dalam pemrograman, variabel adalah wadah untuk nilai yang berubah. Variabel dapat menampung semua jenis nilai dan juga hasil komputasi. Variabel memiliki nama dan nilai yang dipisahkan oleh tanda sama dengan (=). Nama variabel dapat berupa huruf atau kata apa saja, tetapi ingatlah bahwa ada batasan dari bahasa ke bahasa yang dapat Anda gunakan, karena beberapa kata dicadangkan untuk fungsi lain.
 
-Let's check out how it works in Javascript, The following code defines two variables, computes the result of adding the two and defines this result as a value of a third variable.
+Mari kita lihat cara kerjanya di Javascript, Kode berikut mendefinisikan dua variabel, menghitung hasil penjumlahan keduanya dan mendefinisikan hasil ini sebagai nilai variabel ketiga.
 
 ```js
 var x = 5;
