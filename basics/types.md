@@ -1,8 +1,8 @@
 # Variable types
 
-Computers are sophisticated and can make use of more complex variables than just numbers. This is where variable types come in. Variables come in several types and different languages support different types.
+Komputer canggih dan dapat menggunakan variabel yang lebih kompleks daripada hanya angka. Di sinilah jenis Variables come in , Variables come in adalah jenis dan bahasa yang berbeda mendukung jenis yang berbeda pula.
 
-The most common types are:
+Jenis yang paling umum adalah:
 
 - **Numbers**
 
