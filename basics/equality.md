@@ -1,10 +1,10 @@
-# Equality
+#Persamaan
 
-Programmers frequently need to determine the equality of variables in relation to other variables. This is done using an equality operator.
+Pemrogram sering perlu menentukan kesetaraan variabel dalam kaitannya dengan variabel lain. Ini dilakukan dengan menggunakan operator kesetaraan.
 
-The most basic equality operator is the `==` operator. This operator does everything it can to determine if two variables are equal, even if they are not of the same type.
+Operator persamaan paling dasar adalah operator `==`. Operator ini melakukan segalanya untuk menentukan apakah dua variabel sama, bahkan jika mereka tidak bertipe sama.
 
-For example, assume:
+Misalnya, asumsikan:
 
 ```javascript
 var foo = 42;
@@ -13,6 +13,6 @@ var baz = "42";
 var qux = "life";
 ```
 
-`foo == bar` will evaluate to `true` and `baz == qux` will evaluate to `false`, as one would expect. However, `foo == baz` will _also_ evaluate to `true` despite `foo` and `baz` being different types. Behind the scenes the `==` equality operator attempts to force its operands to the same type before determining their equality. This is in contrast to the `===` equality operator.
+`foo == bar` akan dievaluasi menjadi `true` dan `baz == qux` akan dievaluasi menjadi `false`, seperti yang diharapkan. Namun, `foo == baz` akan _juga_ dievaluasi menjadi `true` meskipun `foo` dan `baz` berbeda tipe. Di balik layar, operator kesetaraan `==` mencoba memaksa operandnya ke tipe yang sama sebelum menentukan kesetaraannya. Ini berbeda dengan operator persamaan `===`.
 
-The `===` equality operator determines that two variables are equal if they are of the same type _and_ have the same value. With the same assumptions as before, this means that `foo === bar` will still evaluate to `true`, but `foo === baz` will now evaluate to `false`. `baz === qux` will still evaluate to `false`.
+Operator persamaan `===` menentukan bahwa dua variabel adalah sama jika mereka bertipe sama _dan_ memiliki nilai yang sama. Dengan asumsi yang sama seperti sebelumnya, ini berarti `foo === bar` masih akan dievaluasi ke `true`, tetapi `foo === baz` sekarang akan dievaluasi ke `false`. `baz === qux` masih akan dievaluasi menjadi `false`.
