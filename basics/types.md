@@ -6,27 +6,28 @@ Jenis yang paling umum adalah:
 
 - **Numbers**
 
-  - **Float**: a number, like 1.21323, 4, -33.5, 100004 or 0.123
-  - **Integer**: a number like 1, 12, -33, 140 but not 1.233
+  - **Float**: sebuah nomor, seperti 1.21323, 4, -33.5, 100004 atau 0.123
+  - **Integer**: sebuah nomor, seperti 1, 12, -33, 140 tapi bukan 1.233
 
-- **String**: a line of text like "boat", "elephant" or "damn, you are tall!"
+- **String**: sebuah huruf dari kata seperti "perahu", "gajah" atau "sialah , kamu sangat tinggi!"
 
-- **Boolean**: either true or false, but nothing else
+- **Boolean**: antara true atau false , dan tak ada output lain
 
-- **Arrays**: a collection of values like: 1,2,3,4,'I am bored now'
+- **Arrays**: sebuah list antara beberapa gabungan nilai seperti: 1,2,3,4,'saya bosan'
 
-- **Objects**: a representation of a more complex object
+- **Objects**: representasi dari objek yang lebih kompleks
 
-- **null**: a variable that contains null contains no valid Number, String, Boolean, Array, or Object
+- **null**: variabel yang berisi null tidak mengandung Number, String, Boolean, Array, atau Object yang valid
 
-- **undefined**: the undefined value is obtained when you use an object property that does not exist, or a variable that has been declared, but has no value assigned to it.
+- **undefined**: nilai yang tidak ditentukan diperoleh saat Anda menggunakan properti objek yang tidak ada, atau variabel yang telah dideklarasikan, tetapi tidak memiliki nilai yang ditetapkan padanya.
 
-JavaScript is a _“loosely typed”_ language, which means that you don't have to explicitly declare what type of data the variables are. You just need to use the `var` keyword to indicate that you are declaring a variable, and the interpreter will work out what data type you are using from the context, and use of quotes.
+JavaScript adalah bahasa _“diketik secara longgar”_, yang berarti Anda tidak perlu mendeklarasikan secara eksplisit tipe data variabelnya. Anda hanya perlu menggunakan kata kunci `var` untuk menunjukkan bahwa Anda mendeklarasikan sebuah variabel, dan interpreter akan menentukan tipe data apa yang Anda gunakan dari konteks, dan penggunaan tanda kutip.
 
-{% exercise %}
-Create a variable named `a` using the keyword `var`.
-{% solution %}
-var a;
-{% validation %}
-a;
-{% endexercise %}
+{% olahraga %}
+
+Buat variabel bernama `a` menggunakan kata kunci `var`.
+{% solusi %}
+bervariasi;
+{% validasi %}
+Sebuah;
+{% olahraga akhir %}
