@@ -1,22 +1,53 @@
 # Komentar
 
-Comments are statements that will not be executed by the interpreter, comments are used to mark annotations for other programmers or small descriptions of what your code does, thus making it easier for others to understand what your code does.
+Dalam proses pengembangan sebuah program, tentunya kita akan disibukkan dengan penulisan kode-kode yang begitu banyak dan 'tampak' rumit sehingga akan sulit untuk dipahami oleh orang lain. Untuk menangani masalah ini, sebagai programmer kita sebaiknya menambahkan komentar untuk menjelaskan algoritma dan keterangan-keterangan yang diperlukan dalam program sehingga program menjadi lebih mudah dipahami oleh yang melihatnya. Hal ini juga akan membantu dalam proses pemeliharaan (maintenance) dari program yang telah kita buat.
 
-In Javascript, comments can be written in 2 different ways:
+Selain kebutuhan diatas komentar juga banyak digunakan untuk menuliskan informasi tentang kode program, misalnya nama nama pembuat kode program, kapan kode tersebut dibuat / dimodifikasi, lisensi dari program tersebut, maupun deskripsi lain yang diperlukan.
 
-- Line starting with `//`:
+Komentar baris tunggal dimulai dengan tanda //.
+
+Teks apa pun yang berada di antara // dan akhir baris akan diabaikan oleh JavaScript (tidak akan dieksekusi).
+
+Contoh ini menggunakan komentar baris tunggal yang letaknya sebelum baris kode:
 
 ```javascript
-// This is a comment, it will be ignored by the interpreter
-var a = "this is a variable defined in a statement";
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 id="myH"></h1>
+<p id="myP"></p>
+
+<script>
+// merubah heading:
+document.getElementById("myH").innerHTML = "Komentar pada JavaScript";
+// merubah paragraf:
+document.getElementById("myP").innerHTML = "Paragraf Pertamaku";
+</script>
+
+</body>
+</html>
 ```
 
-- Section of code starting with `/*`and ending with `*/`, this method is used for multi-line comments:
+Contoh ini menggunakan komentar baris tunggal di akhir setiap baris untuk menjelaskan kode:
 
 ```javascript
-/*
-This is a multi-line comment,
-it will be ignored by the interpreter
-*/
-var a = "this is a variable defined in a statement";
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Komentar pada JavaScript</h2>
+
+<p id="demo"></p>
+
+<script>
+var x = 5;    // Deklarasikan x, berikan nilai 5
+var y = x + 2;  // Deklarasikan y, berikan nilai x + 2
+// Tulis y pada demo:
+document.getElementById("demo").innerHTML = y;
+</script>
+
+
+</body>
+</html>
 ```
