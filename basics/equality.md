@@ -1,10 +1,10 @@
 #Persamaan
 
-Pemrogram sering perlu menentukan kesetaraan variabel dalam kaitannya dengan variabel lain. Ini dilakukan dengan menggunakan operator kesetaraan.
+Bahasa pemorgraman perlu menentukan kesetaraan satu variabel dengan variabel lain. Ini dilakukan dengan menggunakan operator persamaan.
 
 Operator persamaan paling dasar adalah operator `==`. Operator ini melakukan segalanya untuk menentukan apakah dua variabel sama, bahkan jika mereka tidak bertipe sama.
 
-Misalnya, asumsikan:
+Misalnya, kita asumsikan:
 
 ```javascript
 var foo = 42;
